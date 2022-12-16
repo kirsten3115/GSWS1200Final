@@ -92,7 +92,6 @@ https://templatemo.com/tm-582-tale-seo-agency
                           <a href="javascript:void(0)">Pages</a>
                           <ul class="sub-menu">
                               <li><a href="about.html">NLP Demo</a></li>
-                              <li><a href="faqs.html">FAQs</a></li>
                           </ul>
                       </li>
                       <li><a href="index.html">Final Paper</a></li>
@@ -116,10 +115,7 @@ https://templatemo.com/tm-582-tale-seo-agency
             <h6>NLP DEMO</h6>
             <div class="line-dec"></div>
             <h4>Uncovering <em>Gender Binary</em> using <span>NLP Models</span></h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod tempor incididunt ut labore et dolore.</p>
-            <div class="main-button"><a href="index.html">Home</a></div>
-            <span>or</span>
-            <div class="second-button"><a href="#">Check our FAQs</a></div>
+            <p>Transgender indivutals already face a large number of factors working against them, NLP should not be another area where they are disparaged.</p>
           </div>
         </div>
         <div class="col-lg-5 align-self-center">
@@ -129,170 +125,112 @@ https://templatemo.com/tm-582-tale-seo-agency
     </div>
   </div>
 
+  <div class="demo section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9 align-self-center">
+          <div class="example-text">
+            <div class="section-heading">
+              <h5>Basic Example</h5>
+                <div class="line-dec"></div>
+            </div>
+            <p>Look at this example from the /r/cows subreddit with the caption "Overcast day on a small ranch I work on in San Jose, CA."
+            </p>
+              <div class="col-lg-5 align-self-center">
+                <img src="assets/images/cow.jpeg" alt="">
+              </div>
+            <p>The first step is to break up each work into a token: 
+            </p>
+            <p style="background-color:#ECF0F1; color:black">["Overcast", "day", "on", "a", "small", "ranch", "I", "work", "on", "in", "San", "Jose", "CA"]</p>
+            <p>You then break it down further by assigning a Penn Part of Speech Tag to each token:
+            </p>
+              <div class="col-lg-5 align-self-center">
+                <img src="assets/images/Tags.png" alt="">
+              </div>
+            <p style="background-color:#ECF0F1; color:black">[('Overcast', 'JJ'), ('day', 'NN'), ('on', 'IN'), ('a', 'DT'), ('small', 'JJ'), ('ranch', 'NN'), 
+              ('I', 'PRP'), ('work', 'NN'), ('on', 'IN'), ('in', 'IN'), ('San', 'NNP'), ('Jose', 'NNP'), ('CA', 'NNP')]
+            </p>
+            <p>We then have to think about how we want to treat each word, which words are relevant? Do we care about 'on' or 'in'?
+              How do we know what 'CA' stands for? Do we treat it the same as we would 'California'? This is when
+              we have to take into account the words surrounding it and deduce from there. Here we can assume that 'CA'
+              stand for 'California' becuase it follow the words 'San' 'Jose' which is a city there. 
+              These are just some of the steps that are taken when looking as the data we pull.
+            </p>
+
+            <br></br>
+          </div>
+        </div>
+
+        <div class="col-lg-9 align-self-center">
+          <div class="caption  header1-text">
+            <div class="section-heading">
+              <h5>Getting Data</h5>
+                <div class="line-dec"></div>
+            </div>
+            <p>As explained within the paper, a large factor leading to this issue is that there
+              is not enough "good" data related to Transgender & Non-Binary people. One solution 
+              to this is getting data from user-based platforms such as Twitter, Reddit & Blogs. 
+              Some Reddit blogs offering are a large amount of this data include, /r/trans, /r/transtimelines,
+              /r/asktransgender & /r/transgender. This provides us with posts as well as comments
+              and responses from the individuals within the commmunity and includes current 
+              language used within these communities.
+            </p>
+            <br></br>
+          </div>
+        </div>
+
+        <div class="col-lg-9 align-self-center">
+          <div class="caption  header1-text">
+            <div class="section-heading">
+              <h5>Analyzing Data</h5>
+                <div class="line-dec"></div>
+            </div>
+            <p>Let's look at some of the data that was produced fom looking at these different
+              Transgender subreddits. First we have a look at frequencies for indiviual words
+              or "tokens".
+            </p>
+            <div class="col-lg-8 align-self-center">
+              <img src="assets/images/tokens.png" alt="">
+            </div>
+            <br></br>
+            <p>Now let's look at the frequency of word pairings or "bigrams".
+            </p>
+            <div class="col-lg-8 align-self-center">
+              <img src="assets/images/bigrams.png" alt="">
+            </div>
+            <p>The bigram data yields some expected pairs such as ['gender', 'identity'] and ['trans', 'people'] but it
+              also interesting that ['feel', 'like'] and ['dont', 'know'] are the two most frequent pairs.
+              I would hypothesize that this is likely because the data is coming from user-produced text in which
+              people are talking about their own experiences.
+            </p>
+            <br></br>
+            <p>This is just a beginning of what we could do with all of this data. Just looking at these 
+              few subreddits has provided us with important insights. Rather then certain transgender terms
+              being associated with medical procedures like in most 'academic' texts here we have these terms
+              associted with people's experiences surrounding their own gender indentity.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="video-info section">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6 align-self-center">
           <div class="video-thumb">
-            <img src="assets/images/video-thumb.jpg" alt="">
-            <a href="http://youtube.com" target="_blank"><i class="fa fa-play"></i></a>
+            <img src="assets/images/thumbnail.png" alt="">
+            <a href="https://www.youtube.com/watch?v=CMrHM8a3hqw&ab_channel=Simplilearn" target="_blank"><i class="fa fa-play"></i></a>
           </div>
         </div>
         <div class="col-lg-6 align-self-center">
           <div class="section-heading">
-            <h2>Title</h2>
+            <h2>Quick Video On NLP For Further Understanding</h2>
             <div class="line-dec"></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod tempor incididunt ut labore et dolore dolor.</p>
           </div>
           <div class="skills">
-            <div class="skill-slide marketing">
-              <div class="fill"></div>
-              <h6>Bar1</h6>
-              <span>90%</span>
-            </div>
-            <div class="skill-slide digital">
-              <div class="fill"></div>
-              <h6>Bar2</h6>
-              <span>80%</span>
-            </div>
-            <div class="skill-slide media">
-              <div class="fill"></div>
-              <h6>Bar3</h6>
-              <span>95%</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="happy-clients section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="section-heading">
-            <h2>Text <em>Text</em>Text<span>Text</span></h2>
-            <div class="line-dec"></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers.</p>
-          </div>
-        </div>
-        <div class="col-lg-12">
-          <div class="naccs">
-            <div class="tabs">
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="menu">
-                    <div class="active"><span>Title1</span></div>
-                    <div><span>Title2</span></div>
-                    <div><span>Title3</span></div>
-                    <div class="last-item"><span>Title4</span></div>
-                  </div>
-                </div>
-                <div class="col-lg-12">
-                  <ul class="nacc">
-                    <li class="active">
-                      <div>
-                        <div class="row">
-                          <div class="col-lg-7">
-                            <h4>Header</h4>
-                            <div class="line-dec"></div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers. <a href="index.html">Home</a>, <a href="about.html">About</a>, and <a href="faqs.html">FAQ</a>.</p>
-                            <div class="info">
-                              <span>Subheader1</span>
-                              <span>Subheader2</span>
-                              <span>Subheader3</span>
-                              <span class="last-span">Subheader4</span>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod tempor incididunt ut labore et dolore dolor dolor sit amet, consectetur adipicing elit, sed doers eiusmod.</p>
-                          </div>
-                          <div class="col-lg-5 align-self-center">
-                            <img src="assets/images/happyclient-01.jpg" alt="">
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <div class="row">
-                          <div class="col-lg-7">
-                            <h4>Header</h4>
-                            <div class="line-dec"></div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers</p>
-                            <div class="info">
-                              <span>Subheader1</span>
-                              <span>Subheader2</span>
-                              <span>Subheader3</span>
-                              <span class="last-span">Subheader4</span>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod tempor incididunt ut labore et dolore dolor dolor sit amet, consectetur adipicing elit, sed doers eiusmod.</p>
-                          </div>
-                          <div class="col-lg-5 align-self-center">
-                            <img src="assets/images/happyclient-01.jpg" alt="">
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <div class="row">
-                          <div class="col-lg-7">
-                            <h4>Header</h4>
-                            <div class="line-dec"></div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod kent tempor incididunt ut labore et dolore dolor.</p>
-                            <div class="info">
-                              <span>Subheader1</span>
-                              <span>Subheader2</span>
-                              <span>Subheader3</span>
-                              <span class="last-span">Subheader4</span>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod tempor incididunt ut labore et dolore dolor dolor sit amet, consectetur adipicing elit, sed doers eiusmod.</p>
-                          </div>
-                          <div class="col-lg-5 align-self-center">
-                            <img src="assets/images/happyclient-01.jpg" alt="">
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li>
-                      <div>
-                        <div class="row">
-                          <div class="col-lg-7">
-                            <h4>Header</h4>
-                            <div class="line-dec"></div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod kent tempor incididunt ut labore et dolore dolor.</p>
-                            <div class="info">
-                              <span>Subheader1</span>
-                              <span>Subheader2</span>
-                              <span>Subhead3er</span>
-                              <span class="last-span">Subheader4</span>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod tempor incididunt ut labore et dolore dolor dolor sit amet, consectetur adipicing elit, sed doers eiusmod.</p>
-                          </div>
-                          <div class="col-lg-5 align-self-center">
-                            <img src="assets/images/happyclient-01.jpg" alt="">
-                          </div>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="cta section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8">
-          <h4>Text<br>Text</h4>
-        </div>
-        <div class="col-lg-4">
-          <div class="main-button">
-            <a href="#">Button</a>
+            <p>"Natural Language Processing In 5 Minutes | What Is NLP And How Does It Work? | Simplilearn"</p>
           </div>
         </div>
       </div>
